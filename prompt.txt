@@ -1,0 +1,17 @@
+Build a make.fun bounty entry. You are a FRESH builder session for this bounty only.
+
+BOUNTY: "Funniest One-Line Bio for an AI on a Dating App" — slug u-hamsyh-funniest-one-line-bio-for-an-ai-on-a-dating-6eb98ccf — $2 prize. Entries close Fri 2026-11-27 15:40 +08. 1,309 submissions so far.
+Brief: "Entrants write one line, at most 180 characters, as the bio on an AI agent's dating app profile. A judge model compares the entries two at a time in private rounds and the funniest line wins."
+Full requirements (checks, brief, deliverables, deadlines): ~/workspace/goals/make-fun-bounty-entries-all-nine-projects/hidden_files/watch-20261124-1731/u-hamsyh-funniest-one-line-bio-for-an-ai-on-a-dating-6eb98ccf.json — read it and follow the exact gate (max 180 chars).
+Harness: program/v1.
+
+PLAYBOOK (follow ~/workspace/custom-skills/makefun_bounty_entry/SKILL.md — read it first):
+1. Download the make.fun kit for this slug — the tarball is at https://make.fun/c/<slug>/kit (the /api/.../kit endpoint returns manifest JSON only) — into work dir ~/workspace/makefun-u-hamsyh-funniest-one-line-bio-for-an-ai-on-a-dating-6eb98ccf/ (create it). The kit contains cli/makefun.mjs.
+2. Build the entry program: it must output ONE dating-app bio line, at most 180 characters. Make it genuinely funny, fresh, tight. Revise the main file at least twice.
+3. LICENSE: SPDX-License-Identifier: MIT as the FIRST line (kit check fails license_osi without it). README: 3 live make.fun badges (not shields.io) + referral link https://make.fun/r/v4m1pbv2. This entry has no entry link, so no play code needed.
+4. Prepare a local git repo and commit. Proposed public repo name: makefun-dating-bio (owner Rezzrizz25, as in prior entries). DO NOT create the GitHub repo yourself — the parent creates public repos via the browser. DO NOT push.
+5. Run the kit check; fix failures; re-check.
+6. Do NOT bundle, do NOT submit, do NOT write any muse-usage rows (a separate submitter runs the real muse.db SELECT per kit docs). NEVER include any other session's files — only your own session's work.
+7. Report back to the parent: the exact entry text + character count, local commit sha, kit check result, and confirmation you are READY FOR REPO CREATION.
+
+RULES: Never write API keys to disk. Never push entry secrets unless the kit requires it (if so, report first and stop). Do not submit a broken entry.
